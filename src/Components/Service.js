@@ -9,7 +9,7 @@ import ServiceRightPartText from './ServiceRightPartText';
 import { allWorks } from './ServiceAllWorksItems';
 import { webSites } from './ServiceWebSitesItems';
 
-
+import TabDemo from "../Components/ResponsiveService";
 export default function Service() {
   const [value, setValue] = React.useState('1');
 
@@ -19,7 +19,10 @@ export default function Service() {
    return (
    
     <>
-    
+    <div className="tabdemo">
+    <TabDemo/>
+    </div>
+   <div className='desktopService'>
    <div className='service_page'>
    <TabContext value={value}>
    
@@ -56,6 +59,8 @@ export default function Service() {
    </TabContext>
     
    </div>
+   </div>
+  
     </>
   )
 }

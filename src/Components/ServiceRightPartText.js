@@ -5,6 +5,7 @@ export default function ServiceRightPartText({item}) {
     
   return (
     <div>
+      
         <div className='right_part_wrapper'>
        <div className="right_part_img">
          <div className='right_img_wrapper' style={{backgroundImage:`url(${item.url})`,backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>

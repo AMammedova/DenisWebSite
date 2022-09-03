@@ -1,0 +1,139 @@
+.service_page{
+    width: 80%;
+    height: 80vh;
+    color: white !important;
+    display: flex;
+    margin-left: 10%;
+}
+.service_page_left_part{
+    width: 20%;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5%;
+
+}
+.left_part_wrapper{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.left_part_wrapper h5{
+    cursor: pointer;
+}
+.service_page_right_part{
+    width: 80%;
+   
+    overflow-y: auto;
+    margin-left: 5%;
+
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.right_part_img{
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+.right_img_wrapper{
+    width: 360px;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.right_img_wrapper img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+.right_part_text{
+width: 80%;
+
+}
+.right_part_text p{
+    height: 14.5vh;
+    overflow-y: auto;
+    margin-top: 3%;
+}
+.right_part_wrapper{
+    width: 100%;
+    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.css-heg063-MuiTabs-flexContainer{
+    flex-direction: column;
+   
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color:#1F9D96 !important
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #1F9D96 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: white !important;
+}
+ 
+.morebtn{
+    width: 15%;
+    padding: 8px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+@media screen and (max-width: 476px) {
+    /* .service_page{
+        margin-left: 0!important;
+    } */
+    .service_page_right_part{
+        width: 100%;
+      
+        flex-direction: row;
+    }
+    .right_part_wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+       
+    }
+    .service_page_left_part{
+        display: none;
+    }
+    .right_part_img {
+       width: 35%;
+       justify-content: flex-start;
+       align-items: flex-start;
+    }
+ .right_img_wrapper{
+    width: 780px;
+ }
+    .right_part_text {
+        width: 30%;
+    }
+    .morebtn {
+        width: 40%;
+    }
+}
